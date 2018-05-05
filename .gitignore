@@ -12,3 +12,9 @@
 nbproject
 .idea
 .node_history
+# vscode 配置目录
+.vscode
+# 小程序工程文件
+project.config.json
+# npm的依赖模块
+node_modules/

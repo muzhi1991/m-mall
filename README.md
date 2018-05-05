@@ -8,6 +8,18 @@
 - 前台 [m-mall](https://github.com/skyvow/m-mall)
 - 后台 [m-mall-admin](https://github.com/skyvow/m-mall-admin)
 
+## 开发环境
+
+1. 推荐使用vscode编写代码，安装下列插件
+* minapp: wxml代码提示，参考功能参考[文档](https://qiu8310.github.io/minapp/docs/doc-autocomplete.html)
+* 项目中内置了jsconfig.json和typings目录的api提示配置（如需更新,运行`npm install  @minapp/wx`并复制node_modules/@minapp/wx/typing到项目根目录的typings目录下）。功能参考[文档](https://qiu8310.github.io/minapp/docs/doc-autocomplete.html)
+* 小程序助手: wxss代码高亮
+* vscode weapp api: 提供了js的代码模板，wxXXX即可提示，如wxpage会有page模板，wxrequest会有请求模板
+* WeApp Snippets: 提供了wxml程序模板，在wxml中输入wa开头会有，wa-button会有button的模板
+
+2. 使用官方小程序工具预览代码，代码保存会自动触发重新编译。其他方案如wept已经不维护，不推荐使用。
+
+
 ## 目录结构：
 
 ```
